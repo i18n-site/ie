@@ -1,0 +1,22 @@
+{
+  "name": "@2-/tmpl",
+  "version": "0.1.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://atomgit.com/i18n/ie.git"
+  },
+  "homepage": "https://atomgit.com/i18n/ie/tree/dev/tmpl",
+  "keywords": [],
+  "author": "3Ti.Site@gmail.com",
+  "license": "Apache-2.0",
+  "exports": {
+    ".": "./lib/index.js",
+    "./*": "./lib/*"
+  },
+  "files": [
+    "lib/*"
+  ],
+  "devDependencies": {},
+  "scripts": {},
+  "type": "module"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "@2-/errer",
+  "version": "0.1.5",
+  "repository": {
+    "type": "git",
+    "url": "git+https://atomgit.com/i18n/ie.git"
+  },
+  "homepage": "https://atomgit.com/i18n/ie/tree/dev/errer",
+  "keywords": [],
+  "author": "3Ti.Site@gmail.com",
+  "license": "Apache-2.0",
+  "exports": {
+    ".": "./lib/index.js",
+    "./*": "./lib/*"
+  },
+  "files": [
+    "lib/*"
+  ],
+  "scripts": {},
+  "type": "module",
+  "peerDependencies": {
+    "@2-/focus": "^0.1.1",
+    "@2-/ing": "^0.1.3",
+    "@2-/new": "^0.1.1"
+  }
+}

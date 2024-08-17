@@ -1,0 +1,15 @@
+# @3-/svelte_slot
+
+[test/main.coffee](./test/main.coffee) :
+
+```coffee
+<+ ./test/main.coffee >
+```
+
+output :
+
+```
+<+ ./out.txt >
+```
+
+<+ ../about.md >

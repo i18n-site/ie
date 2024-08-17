@@ -1,0 +1,16 @@
+{
+  "name": "@2-/tag0",
+  "version": "0.1.2",
+  "repository": "https://atomgit.com/i18n/ie.git",
+  "homepage": "https://atomgit.com/i18n/ie/tree/dev/tag0",
+  "author": "3Ti.Site@gmail.com",
+  "license": "Apache-2.0",
+  "exports": {
+    ".": "./lib/index.js",
+    "./*": "./lib/*"
+  },
+  "files": [
+    "lib/*"
+  ],
+  "type": "module"
+}

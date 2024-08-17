@@ -1,0 +1,22 @@
+{
+  "name": "@2-/fp",
+  "version": "0.1.8",
+  "repository": "https://atomgit.com/i18n/ie.git",
+  "homepage": "https://atomgit.com/i18n/ie/tree/dev/fp",
+  "author": "3Ti.Site@gmail.com",
+  "license": "Apache-2.0",
+  "exports": {
+    ".": "./lib/index.js",
+    "./*": "./lib/*"
+  },
+  "files": [
+    "lib/*"
+  ],
+  "scripts": {},
+  "type": "module",
+  "peerDependencies": {
+    "@2-/new": "^0.1.1",
+    "@3-/b64": "^0.1.3",
+    "@3-/vb": "^0.1.5"
+  }
+}

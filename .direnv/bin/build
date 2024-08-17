@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+rm -rf lib
+
+rsync -av --exclude='*.coffee' ./src/ ./lib/
+
+bun x cep -o lib -c src &
+
+if [ -d "i18n" ]; then
+cd i18n
+bun x i18n
+cd ..
+cp -r i18n lib/
+fi
+
+if [ -d "svg" ]; then
+cp -r svg/* lib/
+fi
+
+wait || \
+  {
+    echo "error : $?" >&2
+    exit 1
+  }
+

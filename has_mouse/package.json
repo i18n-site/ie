@@ -1,0 +1,22 @@
+{
+  "name": "@2-/has_mouse",
+  "version": "0.1.2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://atomgit.com/i18n/ie.git"
+  },
+  "homepage": "https://atomgit.com/i18n/ie/tree/dev/has_mouse",
+  "keywords": [],
+  "author": "3Ti.Site@gmail.com",
+  "license": "Apache-2.0",
+  "exports": {
+    ".": "./lib/index.js",
+    "./*": "./lib/*"
+  },
+  "files": [
+    "lib/*"
+  ],
+  "devDependencies": {},
+  "scripts": {},
+  "type": "module"
+}
