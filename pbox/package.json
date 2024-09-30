@@ -1,11 +1,11 @@
 {
-  "name": "@2-/tmpl",
-  "version": "0.1.0",
+  "name": "@2-/pbox",
+  "version": "0.1.2",
   "repository": {
     "type": "git",
     "url": "git+https://atomgit.com/i18n/ie.git"
   },
-  "homepage": "https://atomgit.com/i18n/ie/tree/dev/tmpl",
+  "homepage": "https://atomgit.com/i18n/ie/tree/dev/pbox",
   "keywords": [],
   "author": "3Ti.Site@gmail.com",
   "license": "Apache-2.0",
