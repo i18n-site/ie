@@ -1,0 +1,29 @@
+{
+  "name": "@2-/qy",
+  "version": "0.1.33",
+  "repository": {
+    "type": "git",
+    "url": "git+https://atomgit.com/i18n/ie.git"
+  },
+  "homepage": "https://atomgit.com/i18n/ie/tree/dev/qy",
+  "keywords": [],
+  "author": "3Ti.Site@gmail.com",
+  "license": "Apache-2.0",
+  "exports": {
+    ".": "./lib/lib.js",
+    "./*": "./lib/*"
+  },
+  "files": [
+    "lib/*"
+  ],
+  "devDependencies": {},
+  "scripts": {},
+  "type": "module",
+  "peerDependencies": {
+    "@2-/highlight": "workspace:^",
+    "@2-/pre_lines": "workspace:^",
+    "@3-/seg": "^0.1.2",
+    "idb": "^8.0.0"
+  },
+  "dependencies": {}
+}

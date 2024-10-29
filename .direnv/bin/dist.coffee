@@ -60,4 +60,4 @@ if existsSync src
   await $"git commit -m '#{json.name} v#{version}'"
   #await $'git push'
   cd lib
-  await $'npm publish --access=public'
+  await $'pnpm i&&pnpm publish --access=public --publish-branch $(git symbolic-ref --short -q HEAD)'
